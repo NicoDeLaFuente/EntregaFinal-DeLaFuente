@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante - Llanos del castor</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/Logo1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0eca6ae834.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="Imagenes/Logo1.png" alt="logo"> </a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link" href="alojamiento.html">Alojamiento</a>
+                            <a class="nav-link" href="excursiones.html">Excursiones</a>
+                            <a class="nav-link" href="restaurante.html">Restaurante</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <h1>Restaurante Fin Del Mundo</h1>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <p>Deleitate con los increíbles sabores de la Patagonia Argentina, con insumos 100% naturales
+                    cocinados a las brazas de madera de lenga. Contamos con opciones vegetarianas, veganas y sin TACC
+                    para que disfrutes.</p>
+                <p>Se requiere reservas sin excepción</p>
+            </section>
+            <section>
+                <img src="Imagenes/fotorestaurante2.jpg" alt="Foto del exterior del restaurante">
+                <img src="Imagenes/fotorestaurante1.jpg" alt="Foto del interior del restaurante">
+                <img src="Imagenes/fotorestaurante3.jpg" alt="Foto de un plato preparado en el restaurante">
+                <img src="Imagenes/fotorestaurante5.jpeg" alt="Foto de carne asada previa a ser emplatada">
+                <img src="Imagenes/fotorestaurante4.jpeg" alt="Foto de plato típico de la región">
+            </section>
+            <section class="formreserva">
+                <h2>Solicite su reserva</h2>
+                <form action="https://formspree.io/f/myyvkynr" method="POST">
+                    <input type="text" class="inputs" id="nombre" name="nombre" required placeholder="Nombre">
+                    <input type="text" class="inputs" id="apellido" name="apellido" required placeholder="Apellido">
+                    <input type="email" class="inputs" id="email" name="email" required placeholder="Email">
+                    <label for="checkin" class="label">Check-in</label>
+                    <input type="date" class="check" id="checkin" name="checkin" required placeholder="">
+                    <label for="checkout" class="label2">Check-out</label>
+                    <input type="date" class="check" id="checkout" name="checkout" required placeholder="">
+                    <input type="submit" class="inputs boton" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <ul class="contacto">
+                    <li>Ruta Nacional 3, km 3033, Ushuaia, Tierra del Fuego, Argentina.</li>
+                    <li>info@llanosdelcastorushuaia.com</li>
+                    <li>+54 9 2901 653848</li>
+                    <li>Abierto todos los días con reserva previa.</li>
+                </ul>
+                <ul class="redes-sociales">
+                    <li> <a href="https://www.facebook.com/Llanosdelcastorushuaia/" class="fa fa-facebook"></a> </li>
+                    <li> <a href="https://twitter.com/llanosdelcastor" class="fa-brands fa-twitter"></a> </li>
+                    <li> <a href="https://www.youtube.com/channel/UCJfzM2Uf6QW9mrCnbQ9MwVA" class="fa fa-youtube"></a>
+                    </li>
+                    <li> <a href="https://www.instagram.com/llanosdelcastorushuaia/" class="fa-brands fa-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p> Llanos del Castor Ushuaia. Todos los derehos reservados. 2022.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
