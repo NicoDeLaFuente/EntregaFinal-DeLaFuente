@@ -3,6 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="Contacta con nosotros ya sea por número de teléfono o por mail. Estamos para resolver cualquier duda/consulta.">
+    <meta name="keywords" content="CONTACTO, EMAIL, TELEFONO, DUDAS, CONSULTAS, PRESUPUESTOS">
     <title>Contacto - Llanos del castor</title>
     <link rel="icon" type="image/x-icon" href="Imagenes/Logo1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/0eca6ae834.js" crossorigin="anonymous"></script>
 </head>
 
@@ -37,37 +41,37 @@
                     </div>
                 </div>
             </nav>
-            <div>
-                <h1>Contacte con nosotros</h1>
+            <div class="contacto container">
+                <h1>¡Contacte con nosotros!</h1>
             </div>
         </header>
 
         <main>
-            <section>
+            <section class="form-contacto container">
                 <form action="https://formspree.io/f/xaykqoel" method="POST">
                     <div>
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre">Nombre*</label>
                         <input type="text" id="nombre" name="nombre" required placeholder="Ej: Santiago">
                     </div>
                     <div>
-                        <label for="apellido">Apellido</label>
+                        <label for="apellido">Apellido*</label>
                         <input type="text" id="apellio" name="apellido" required placeholder="Ej: Sanchez">
                     </div>
                     <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="santisanchez@gmail.com">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required placeholder="Ej: santisanchez@gmail.com">
                     </div>
                     <div>
                         <label for="telefono">Teléfono</label>
                         <input type="number" id="telefono" name="telefono" placeholder="Ej: 011-3456-6789">
                     </div>
                     <div>
-                        <label for="comentario">Comentario</label>
+                        <label for="comentario">Comentario*</label>
                         <textarea name="comentario" id="comentario" required rows="10"
                             cols="30">Escriba aquí su comentario</textarea>
                     </div>
                     <div>
-                        <input type="submit" value="Enviar Consulta">
+                        <input type="submit" class="boton" value="Enviar Consulta">
                     </div>
                 </form>
             </section>
@@ -84,11 +88,11 @@
                     <input type="submit" class="inputs boton" value="Enviar">
                 </form>
             </section>
-            <section>
+            <section class="mapa">
                 <h2>Si te estás preguntando como se accede al hotel, te dejamos la ubicación.</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.263172977375!2d-68.06375209335712!3d-54.71244031529626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c114ebe4595e9%3A0x5170f45d74f23797!2sLlanos%20Del%20Castor!5e0!3m2!1ses!2sar!4v1662426522767!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="600px" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>

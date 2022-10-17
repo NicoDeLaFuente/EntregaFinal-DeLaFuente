@@ -1,0 +1,69 @@
+/*contacto*/
+
+@import "variables";
+
+.contacto{
+    text-align:center;
+    h1{
+        font-size:50px;
+        line-height:80px;
+        color: $color-secundario;
+    }
+
+}
+
+main{
+    .form-contacto{
+        text-align:center;
+    }
+    form{
+        width:auto;
+        padding:20px;
+        div{
+            display:flex;
+            flex-basis:50%;
+            justify-content:space-around;
+            align-items:center;
+            margin: 20px;
+            label{
+                width:200px;
+                text-align:center;
+                font-size:30px;
+                padding:15px;
+                color: $color-secundario;
+            }
+            input{
+                width:430px;
+                height:70px;
+                color:#464f41
+            }
+            textarea{
+                width:430px;
+            }
+            .boton{
+                cursor:pointer;
+                background-color: $color-secundario;
+                color:white;
+                box-shadow: 2px 4px black;
+                &:hover{
+                    background-color:rgb(161, 161, 161);
+                }
+            }
+        }
+        
+    }
+    .mapa{
+        max-height: 756px;
+        h2 {
+            text-align:center;
+            font-size: 40px;
+            font-weight:bold;
+            padding: 30px;
+            color:$color-secundario;
+        iframe{
+            width:100%;
+            height:600px;
+        }
+        }
+    }
+}

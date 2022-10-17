@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="Dispones de cabañas y glampings para que puedas disfrutar de una inmejorable estadia rodeado de naturaleza. ¿Cual elegís?">
+    <meta name="keywords"
+        content="ALOJAMIENTOS, CABAÑAS, GLAMPINGS, NATURALEZA, HOTEL EN USHUAIA, HOSPEDAJE EN USHUAIA, HOSPEDAJE, HOTEL, SKY, SNOWBOAR, CERRO CASTOR">
     <title>Alojamiento - Llanos del castor</title>
     <link rel="icon" type="image/x-icon" href="Imagenes/Logo1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/0eca6ae834.js" crossorigin="anonymous"></script>
 </head>
 
@@ -121,15 +126,13 @@
             <section class="formreserva">
                 <h2>Solicite su reserva</h2>
                 <form action="https://formspree.io/f/myyvkynr" method="POST">
-                    <div class="mb-3">
-                        <input type="text" class="form-control inputs" id="nombre" placeholder="Santiago Sanchez">
-                        <input type="email" class="form-control inputs" id="email" placeholder="name@example.com">
-                        <label for="checkin" class="label">Check-in</label>
-                        <input type="date" class="check" id="checkin" name="checkin" required placeholder="">
-                        <label for="checkout" class="label2">Check-out</label>
-                        <input type="date" class="check" id="checkout" name="checkout" required placeholder="">
-                        <input type="submit" class="inputs boton form-control" value="Enviar">
-                    </div>
+                    <input type="text" class="form-control inputs" id="nombre" placeholder="Santiago Sanchez">
+                    <input type="email" class="form-control inputs" id="email" placeholder="name@example.com">
+                    <label for="checkin" class="label">Check-in</label>
+                    <input type="date" class="check" id="checkin" name="checkin" required placeholder="">
+                    <label for="checkout" class="label2">Check-out</label>
+                    <input type="date" class="check" id="checkout" name="checkout" required placeholder="">
+                    <input type="submit" class="inputs boton form-control" value="Enviar">
                 </form>
             </section>
         </main>

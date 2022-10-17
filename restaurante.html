@@ -3,6 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="En el restaurante Fin del Mundo, exclusivo de resort Llanos del Castor, podrás disfrutar de delicias patagónicas cocinadas por cheff especializados y reconocidos.">
+    <meta name="keywords"
+        content="RESTAURANTE, CHEFF PATAGONICOS, COMIDA PATAGONICA, ASADOR, RESTAURANTE FIN DEL MUNDO">
     <title>Restaurante - Llanos del castor</title>
     <link rel="icon" type="image/x-icon" href="Imagenes/Logo1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/0eca6ae834.js" crossorigin="anonymous"></script>
 </head>
 
@@ -37,24 +42,38 @@
                     </div>
                 </div>
             </nav>
-            <div>
+            <div class="restaurante">
                 <h1>Restaurante Fin Del Mundo</h1>
             </div>
         </header>
 
         <main>
-            <section>
+            <section class="restaurante-intro container">
                 <p>Deleitate con los increíbles sabores de la Patagonia Argentina, con insumos 100% naturales
                     cocinados a las brazas de madera de lenga. Contamos con opciones vegetarianas, veganas y sin TACC
                     para que disfrutes.</p>
-                <p>Se requiere reservas sin excepción</p>
+                <strong>Se requiere reservas sin excepción</strong>
             </section>
-            <section>
+            <section class="infraestructura container">
                 <img src="Imagenes/fotorestaurante2.jpg" alt="Foto del exterior del restaurante">
                 <img src="Imagenes/fotorestaurante1.jpg" alt="Foto del interior del restaurante">
-                <img src="Imagenes/fotorestaurante3.jpg" alt="Foto de un plato preparado en el restaurante">
-                <img src="Imagenes/fotorestaurante5.jpeg" alt="Foto de carne asada previa a ser emplatada">
-                <img src="Imagenes/fotorestaurante4.jpeg" alt="Foto de plato típico de la región">
+            </section>
+            <section class="platos container">
+                <h2>Algunos de nuestros platos</h2>
+                <div class="grid-platos">
+                    <img src="Imagenes/fotorestaurante3.jpg" class="img-restaurante-3 escala"
+                        alt="Foto de un plato preparado en el restaurante">
+                    <img src="Imagenes/fotorestaurante4.jpeg" class="img-restaurante-4 escala"
+                        alt="Foto de plato típico de la región">
+                    <img src="Imagenes/fotorestaurante5.jpeg" class="img-restaurante-5 escala"
+                        alt="Foto de carne asada previa a ser emplatada">
+                    <img src="Imagenes/fotorestaurante6.jpg" class="img-restaurante-6 escala"
+                        alt="Foto de plato típico de la región">
+                    <img src="Imagenes/fotorestaurante7.jpg" class="img-restaurante-7 escala"
+                        alt="Foto de plato típico de la región">
+                    <img src="Imagenes/fotorestaurante8.jpg" class="img-restaurante-8 escala"
+                        alt="Foto de plato típico de la región">
+                </div>
             </section>
             <section class="formreserva">
                 <h2>Solicite su reserva</h2>
