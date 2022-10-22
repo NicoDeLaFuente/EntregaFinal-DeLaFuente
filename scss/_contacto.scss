@@ -5,60 +5,20 @@
 .contacto{
     text-align:center;
     h1{
-        font-size:40px;
+        font-size:25px;
         line-height:80px;
         color: $color-secundario;
+        font-weight: bold;
     }
 
 }
 
 main{
-    .form-contacto{
-        text-align:center;
-    }
-    form{
-        width:auto;
-        padding:20px;
-        div{
-            display:flex;
-            flex-basis:50%;
-            justify-content:space-around;
-            align-items:center;
-            margin: 20px;
-            label{
-                width:110px;
-                font-size:30px;
-                padding:15px 0;
-                color: $color-secundario;
-            }
-            input{
-                font-size:25px;
-                width:190px;
-                height:40px;
-                color:#464f41
-            }
-            textarea{
-                font-size:20px;
-                width:200px;
-                color:$color-secundario;
-            }
-            .boton{
-                cursor:pointer;
-                background-color: $color-secundario;
-                color:white;
-                box-shadow: 2px 4px black;
-                &:hover{
-                    background-color:rgb(161, 161, 161);
-                }
-            }
-        }
-        
-    }
     .mapa{
         max-height: 756px;
         h2 {
             text-align:center;
-            font-size: 30px;
+            font-size: 25px;
             font-weight:bold;
             padding: 30px;
             color:$color-secundario;

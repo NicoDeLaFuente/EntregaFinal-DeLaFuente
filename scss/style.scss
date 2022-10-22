@@ -42,6 +42,11 @@ body {
     background-color: lightgray;
 }
 
+.navbar-toggler {
+    font: size 15px;
+    margin-right: 15px;
+}
+
 
 header .titulo h1 {
     display: flex;
@@ -52,7 +57,7 @@ header .titulo h1 {
     background-image: url(../Imagenes/fondodeportada.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
 }
@@ -60,28 +65,29 @@ header .titulo h1 {
 .experiencia {
     display: flex;
     flex-direction: column;
-    height: 800px;
-    padding: 30px;
+    height: 525px;
+    padding-top: 15px;
     align-items: center;
 }
 
 .experiencia h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     color: $color-secundario;
+    padding-bottom: 10px;
 }
 
 .experiencia p {
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     color: $color-secundario;
 }
 
 .experiencia img {
-    height: 400px;
+    height: 250px;
     width: auto;
-    border-radius: 2em 2em 2em 2em;
+    border-radius: 1em 1em 1em 1em;
     text-align: center;
 }
 
@@ -117,20 +123,20 @@ header .titulo h1 {
 
 .card h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .card p {
     text-align: center;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .card a {
     background-color: #56776c;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
     margin: 5px 120px;
     display: block;
@@ -138,6 +144,8 @@ header .titulo h1 {
 
 .card .btn:hover {
     background-color: rgb(209, 203, 203);
+    color: $color-secundario;
+    border-color: $color-secundario;
 }
 
 /* escala*/
@@ -156,65 +164,94 @@ header .titulo h1 {
 
 .formreserva {
     background-color: white;
-    height:480px;
-    line-height:35px;
+    height: 1000px;
+    line-height: 35px;
 }
 
-.formreserva h2{
-    text-align:center;
-    font-size:40px;
+.formreserva h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
     color: $color-secundario;
-    padding:20px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 .formreserva form {
-    width: 80%;
-    height:350px;
-    padding: 10px;
-    margin:auto;
-    margin-top:20px;
+    width: 90%;
+    height: 100px;
+    padding: 10px 0;
+    margin: auto;
+    margin-top: 20px;
     color: $color-secundario;
 }
 
 .formreserva form .inputs {
-    display:block;
-    width:100%;
-    background-color:white;
+    display: block;
+    width: 90%;
+    background-color: white;
     margin: 15px;
     padding: 5px;
     border: solid 2px $color-secundario;
     color: $color-secundario;
-    height: 51.5px;
-    font-size: 25px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.formreserva form select {
+    display: block;
+    background-color: white;
+    border: solid 2px $color-secundario;
+    color: $color-secundario;
+    width: 90%;
+    height: 35px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
+    overflow: hidden;
 }
 
 .formreserva form .check {
     background-color: white;
-    border:solid 2px $color-secundario;
+    border: solid 2px $color-secundario;
     color: $color-secundario;
-    width: 168px;
-    height: 51.5px;
-    font-size: 25px;
+    width: 90%;
+    height: 35px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 5px;
 }
 
-.formreserva form .label{
+.formreserva form .label,
+.label3 {
+    display: block;
     font-size: 20px;
-    margin-left:10px;
-    width:100px;
+    margin-left: 15px;
+    width: 100px;
 }
 
 .formreserva form .label2 {
-    width:100px;
+    width: 100px;
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
+}
 
+.formreserva form textarea {
+    display: block;
+    width: 90%;
+    background-color: white;
+    margin: 15px;
+    padding: 5px;
+    border: solid 2px $color-secundario;
+    color: $color-secundario;
+    font-size: 15px;
 }
 
 .formreserva .boton {
-    cursor:pointer;
+    cursor: pointer;
+    line-height: 17px;
 }
 
-.formreserva .boton:hover{
+.formreserva .boton:hover {
     box-shadow: 1px 2px 2px 1px grey;
 }
 
@@ -222,10 +259,9 @@ header .titulo h1 {
 
 footer {
     background-color: $color-secundario;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 0;
     color: white;
-    height: 280px;
-    margin-bottom: 7px;
+    height: 250px;
 }
 
 .footer {
@@ -244,7 +280,7 @@ footer {
 }
 
 .contacto li {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .redes-sociales {
@@ -253,14 +289,13 @@ footer {
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    padding: 0 20px 0 0;
-    gap: 30px;
+    gap: 20px;
 }
 
 .redes-sociales li {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -270,7 +305,7 @@ footer {
 
 .copy {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -286,7 +321,7 @@ header .alojamiento h1 {
     background-image: url(../Imagenes/portadaalojamiento.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     padding-top: 15px;
@@ -296,21 +331,21 @@ header .alojamiento h1 {
     border: solid 3px white;
     border-radius: 1em 1em 1em 1em;
     padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin:15px;
+    margin-left:18px;
     background-color: white;
+    width:90%;
 }
 
 .intro h2 {
     color: $color-secundario;
-    font-size: 35px;
+    font-size: 23px;
     padding-bottom: 5px;
-
 }
 
 .intro li {
     color: $color-secundario;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-align: justify;
     list-style-type: circle;
@@ -338,15 +373,17 @@ header .alojamiento h1 {
 .cabananorte h2,
 .cabanasur h2,
 .glampings h2 {
-    font-size: 35px;
+    font-size: 22px;
     color: $color-secundario;
+    font-weight:bold;
+    padding: 10px 0;
 }
 
 .cabananorte p,
 .cabanasur p,
 .glampings p {
     color: $color-secundario;
-    font-size: 25;
+    font-size: 17px;
 }
 
 .cabananorte img,
@@ -356,6 +393,7 @@ header .alojamiento h1 {
     padding: 15px;
     width: 100%;
     max-height: 500px;
+    height:350px;
 
 }
 
@@ -365,7 +403,7 @@ header .alojamiento h1 {
     }
 
     footer {
-        height: 280px;
+        height: 250px;
     }
 }
 
@@ -374,21 +412,51 @@ header .alojamiento h1 {
     header .titulo h1,
     header .alojamiento h1,
     header .excursiones,
-    header .restaurante h1 {
+    header .restaurante h1,
+    header .contacto h1 {
         height: 600px;
+        font-size: 40px;
     }
 
     .experiencia {
         flex-direction: row;
         gap: 15px;
-        height: 400px;
+        height: 450px;
         padding: 10px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
+    .experiencia div {
+        padding: 10px;
+    }
+
+    .experiencia h2 {
+        font-size: 30px;
+    }
+
+    .experiencia p {
+        font-size: 25px;
+    }
+
+    .experiencia img {
+        height: 400px;
+    }
+
     .cartas {
         margin-bottom: 50px;
+    }
+
+    .card h3 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .card a {
+        font-size: 20px;
     }
 
     /*Alojamientos*/
@@ -403,6 +471,14 @@ header .alojamiento h1 {
             "imgchica1 imgchica2";
         max-height: auto;
         padding: 10px 100px;
+    }
+
+    .cabananorte h2, .cabanasur h2, .glampings h2{
+        font-size: 35px;
+    }
+
+    .cabananorte p, .cabanasur p, .glampings p{
+        font-size: 22px;
     }
 
     .cabananorte .texto,
@@ -467,9 +543,36 @@ header .alojamiento h1 {
             "imgchica1 imgchica2";
     }
 
+    .intro {
+        width:90%;
+        margin-left: 70px;
+    }
+
+    .intro h2{
+        font-size: 30px;
+    }
+
+    .intro li{
+        font-size: 25px;
+    }
+
     /*Excursiones*/
 
+    header .excursines h1 {
+        font-size: 40px;
+    }
+
     main {
+        .paquetes{
+            p{
+                font-size:25px;
+            }
+        }
+        .actividades {
+            h2{
+                font-size:35px;
+            }
+        }
 
         .actividades-invierno,
         .actividades-verano {
@@ -523,58 +626,58 @@ header .alojamiento h1 {
 
     /*Restaurante*/
     main {
+        .restaurante-intro{
+            font-size:25px;
+        }
+        .infraestructura{
+            width:600px;
+            height:875px;
+            img{
+                width:600px;
+                height:400px;
+            }
+        }
         .platos {
             .grid-platos {
                 flex-direction: row;
                 flex-wrap: wrap;
+                img{
+                    width:400px;
+                    height:400px;
+                }
             }
         }
     }
 
     /*Contacto*/
 
-    .contacto {
-        h1 {
-            font-size: 50px;
-        }
-    }
-
-    main {
-        .form-contacto {
-            form {
-                div {
-                    label {
-                        width: 200px;
-                        font-size: 40px;
-                        padding: 15px 15px;
-                    }
-
-                    input {
-                        width: 600px;
-                        height: 70px;
-                        font-size: 30px;
-                    }
-
-                    textarea {
-                        width: 600px;
-                        height: auto;
-                        font-size: 30px;
-                    }
-                }
+    header {
+        .contacto{
+            h1{
+                height:75px;
             }
         }
     }
 
+    main {
+        .mapa{
+            h2{
+                font-size:35px;
+            }
+        }
+    }
+     
+
     /*Formulario reserva */
     .formreserva {
         background-color: white;
-        height: 580px;
+        height: 1000px;
         line-height: 35px;
     }
 
     .formreserva h2 {
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         color: $color-secundario;
         padding: 20px 0 0 0;
     }
@@ -594,28 +697,44 @@ header .alojamiento h1 {
         background-color: white;
         margin: 15px;
         padding: 5px;
+        height: 50px;
         font-size: 25px;
         border: solid 2px $color-secundario;
         color: $color-secundario;
+    }
+
+    .formreserva form div {
+        width: 580px;
     }
 
     .formreserva form .check {
         background-color: white;
         border: solid 2px $color-secundario;
         color: $color-secundario;
-        width: 168px;
-        height: 51.5;
+        width: 156px;
+        height: 50px;
         font-size: 18.5px;
+        margin: 10px;
     }
 
     .formreserva form .label {
-        margin-left: 10px;
-
+        display: inline;
     }
 
     .formreserva .label2 {
-        margin-left: 41px;
-        margin-right: 0;
+        padding-left: 5px;
+    }
+
+    .formreserva form select {
+        width: 580px;
+        height: 50px;
+        font-size: 25px;
+        display: inline;
+    }
+
+    .formreserva form textarea {
+        width: 580px;
+        font-size: 25px;
     }
 
     .formreserva .boton {
@@ -628,10 +747,26 @@ header .alojamiento h1 {
 
     /*footer*/
     footer {
-        height: 170px;
+        height: 180px;
 
         .footer {
             flex-direction: row;
+
+            .contacto {
+                li {
+                    font-size: 20px;
+                }
+            }
+        }
+        .redes-sociales{
+            li{
+                font-size:35px;
+            }
+        }
+        .copy{
+            p{
+                font-size:18px;
+            }
         }
     }
 }

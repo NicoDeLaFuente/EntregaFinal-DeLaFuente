@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Contacta con nosotros ya sea por número de teléfono o por mail. Estamos para resolver cualquier duda/consulta.">
     <meta name="keywords" content="CONTACTO, EMAIL, TELEFONO, DUDAS, CONSULTAS, PRESUPUESTOS">
@@ -46,47 +47,28 @@
         </header>
 
         <main>
-            <section class="form-contacto container">
-                <form action="https://formspree.io/f/xaykqoel" method="POST">
-                    <div>
-                        <label for="nombre">Nombre*</label>
-                        <input type="text" id="nombre" name="nombre" required placeholder="Ej: Santiago">
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido*</label>
-                        <input type="text" id="apellio" name="apellido" required placeholder="Ej: Sanchez">
-                    </div>
-                    <div>
-                        <label for="email">Email*</label>
-                        <input type="email" id="email" name="email" required placeholder="Ej: santisanchez@gmail.com">
-                    </div>
-                    <div>
-                        <label for="telefono">Teléfono</label>
-                        <input type="number" id="telefono" name="telefono" placeholder="Ej: 011-3456-6789">
-                    </div>
-                    <div>
-                        <label for="comentario">Comentario*</label>
-                        <textarea name="comentario" id="comentario" required rows="10"
-                            cols="30" placeholder="Escriba aquí su comentario"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" class="boton" value="Enviar Consulta">
-                    </div>
-                </form>
-            </section>
             <section class="formreserva">
-                <h2>Solicite su reserva</h2>
-                <form action="https://formspree.io/f/myyvkynr" method="POST">
-                    <input type="text" class="inputs" id="nombre" name="nombre" required placeholder="Nombre">
-                    <input type="text" class="inputs" id="apellido" name="apellido" required placeholder="Apellido">
-                    <input type="email" class="inputs" id="email" name="email" required placeholder="Email">
-                    <label for="checkin" class="label">Check-in</label>
-                    <input type="date" class="check" id="checkin" name="checkin" required placeholder="">
-                    <label for="checkout" class="label2">Check-out</label>
-                    <input type="date" class="check" id="checkout" name="checkout" required placeholder="">
-                    <input type="submit" class="inputs boton" value="Enviar">
+                <h2>Contáctenos</h2>
+                <form class="container" action="https://formspree.io/f/myyvkynr" method="POST">
+                  <input type="text" class="inputs" id="nombre" name="nombre" required placeholder="Nombre">
+                  <input type="text" class="inputs" id="apellido" name="apellido" required placeholder="Apellido">
+                  <input type="email" class="inputs" id="email" name="email" required placeholder="Email">
+                  <select name="consulta-reserva" required>
+                    <option value="reserva">Reserva</option>
+                    <option value="consulta">Consulta</option>
+                  </select>
+                  <div>
+                  <label for="checkin" class="label">Check-in</label>
+                  <input type="date" class="check" id="checkin" name="checkin" placeholder="">
+                  <label for="checkout" class="label2">Check-out</label>
+                  <input type="date" class="check" id="checkout" name="checkout" placeholder="">
+                  </div>
+                  <label class="label3" for="comentario">Comentario</label>
+                  <textarea name="comentario" id="comentario" rows="10" cols="25"
+                    placeholder="Escriba aquí su comentario"></textarea>
+                  <input type="submit" class="inputs boton" value="Enviar">
                 </form>
-            </section>
+              </section>
             <section class="mapa">
                 <h2>Si te estás preguntando como se accede al hotel, te dejamos la ubicación.</h2>
                 <iframe

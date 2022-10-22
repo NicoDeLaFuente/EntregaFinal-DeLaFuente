@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Ubicado en el km 3033 sobre la RN3 rodeador de bosques y turberas. Aquí podrás realizar todo tipo de actividades de invierno y de verano.">
   <meta name="keywords"
@@ -103,20 +104,30 @@
         </div>
       </section>
       <section class="formreserva">
-        <h2>Solicite su reserva</h2>
-        <form action="https://formspree.io/f/myyvkynr" method="POST">
-          <input type="text" class="form-control inputs" id="nombre" placeholder="Santiago Sanchez">
-          <input type="email" class="form-control inputs" id="email" placeholder="name@example.com">
+        <h2>Contáctenos</h2>
+        <form class="container" action="https://formspree.io/f/myyvkynr" method="POST">
+          <input type="text" class="inputs" id="nombre" name="nombre" required placeholder="Nombre">
+          <input type="text" class="inputs" id="apellido" name="apellido" required placeholder="Apellido">
+          <input type="email" class="inputs" id="email" name="email" required placeholder="Email">
+          <select name="consulta-reserva" required>
+            <option value="reserva">Reserva</option>
+            <option value="consulta">Consulta</option>
+          </select>
+          <div>
           <label for="checkin" class="label">Check-in</label>
-          <input type="date" class="check" id="checkin" name="checkin" required placeholder="">
+          <input type="date" class="check" id="checkin" name="checkin" placeholder="">
           <label for="checkout" class="label2">Check-out</label>
-          <input type="date" class="check" id="checkout" name="checkout" required placeholder="">
-          <input type="submit" class="inputs boton form-control" value="Enviar">
+          <input type="date" class="check" id="checkout" name="checkout" placeholder="">
+          </div>
+          <label class="label3" for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario" rows="10" cols="25"
+            placeholder="Escriba aquí su comentario"></textarea>
+          <input type="submit" class="inputs boton" value="Enviar">
         </form>
       </section>
     </main>
     <footer>
-      <div class="footer ">
+      <div class="footer">
         <ul class="contacto">
           <li>Ruta Nacional 3, km 3033, Ushuaia, Tierra del Fuego, Argentina.</li>
           <li>info@llanosdelcastorushuaia.com</li>
@@ -131,7 +142,7 @@
           <li> <a href="https://www.instagram.com/llanosdelcastorushuaia/"><i class="bi bi-instagram"></i></a> </li>
         </ul>
       </div>
-      <div class="copy">
+      <div class="copy container">
         <p> Llanos del Castor Ushuaia. Todos los derechos reservados. 2022.</p>
       </div>
     </footer>
