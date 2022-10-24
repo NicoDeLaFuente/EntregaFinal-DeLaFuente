@@ -398,12 +398,121 @@ header .alojamiento h1 {
 }
 
 @media (min-width:768px) {
-    header .titulo h1 {
+
+    /*index*/
+    header .titulo h1, header .alojamiento h1, header .contacto h1, header .excursiones, header .restaurante h1 {
+        height: 400px;
+        font-size:35px;
+    }
+
+    main .experiencia{
+        height: 720px;
+    }
+
+    main .experiencia h2{
+        font-size: 30px;
+    }
+
+    main .experiencia img {
         height: 400px;
     }
 
+    main .experiencia p{
+        font-size: 23px;
+    }
+
+    .card h3{
+        font-size:25px;
+    }
+
+    .card p{
+        font-size: 19px;
+    }
+
+    .card a{
+        font-size: 17px;
+    }
+
+    /*Alojamientos*/
+
+    .cabananorte h2, .cabanasur h2, .glampings h2 {
+        font-size: 28px;
+    }
+
+    .cabananorte p, .cabanasur p, .glampings p{
+        font-size: 22px;
+    }
+
+    .cabananorte img, .cabanasur img, .glampings img{
+        height: 600px;
+    }
+
+    .intro {
+        margin-left: 50px;
+    }
+
+    .intro h2{
+        font-size: 28px;
+    }
+
+    .intro li{
+        font-size: 20px;
+    }
+
+    /*Excursiones*/
+    .paquetes p{
+        font-size: 23px;
+    }
+
+    main .actividades h2{
+        font-size: 30px;
+    }
+
+    /*Restaurante*/
+    .restaurante-intro p, strong{
+        font-size: 23px;
+    }
+
+    main .infraestructura img{
+        width: 600px;
+        height: 450px;
+    }
+
+    main .platos h2{
+        font-size: 30px;
+    }
+
+    main .platos .grid-platos img {
+        width: 600px;
+        height:600px;
+    }
+
+    /*Contacto*/
+
+    header .contacto h1{
+        height: 80px;
+    }
+
+    main .mapa h2 {
+        font-size: 30px;
+    }
+
+    /*footer*/
+
     footer {
-        height: 250px;
+        height: 270px;
+    }
+
+    footer .footer .contacto li{
+        font-size: 20px;
+    }
+
+    footer .footer .redes-sociales li{
+        font-size: 40px;
+    }
+
+    footer .copy p{
+        font-size: 15px;
     }
 }
 
@@ -418,7 +527,7 @@ header .alojamiento h1 {
         font-size: 40px;
     }
 
-    .experiencia {
+    main .experiencia {
         flex-direction: row;
         gap: 15px;
         height: 450px;
