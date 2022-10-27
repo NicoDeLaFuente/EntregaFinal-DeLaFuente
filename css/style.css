@@ -951,32 +951,23 @@ header .alojamiento h1 {
     grid-template-areas: "imggrande texto" "imgchica1 imgchica2";
   }
   /* line 655, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
-  .intro {
-    width: 90%;
-    margin-left: 70px;
-  }
-  /* line 660, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
-  .intro h2 {
-    font-size: 30px;
-  }
-  /* line 664, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
-  .intro li {
-    font-size: 25px;
+  .glampings {
+    margin-bottom: 15px;
   }
   /*Excursiones*/
-  /* line 670, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 661, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   header .excursines h1 {
     font-size: 40px;
   }
-  /* line 676, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 667, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .paquetes p {
     font-size: 25px;
   }
-  /* line 681, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 672, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades h2 {
     font-size: 35px;
   }
-  /* line 689, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 680, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .actividad-invierno-1,
   main .actividades-invierno .actividad-invierno-2,
   main .actividades-invierno .actividad-invierno-3,
@@ -992,7 +983,7 @@ header .alojamiento h1 {
     align-items: center;
     padding: 20px 0 5px 0;
   }
-  /* line 699, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 690, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .actividad-invierno-1 h3,
   main .actividades-invierno .actividad-invierno-2 h3,
   main .actividades-invierno .actividad-invierno-3 h3,
@@ -1005,7 +996,7 @@ header .alojamiento h1 {
   main .actividades-verano .actividad-verano-2 h3 {
     font-size: 30px;
   }
-  /* line 704, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 695, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .actividad-invierno-1 ul li,
   main .actividades-invierno .actividad-invierno-2 ul li,
   main .actividades-invierno .actividad-invierno-3 ul li,
@@ -1019,7 +1010,7 @@ header .alojamiento h1 {
     font-size: 20px;
     list-style-type: square;
   }
-  /* line 709, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 700, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .actividad-invierno-1 ul li ol li,
   main .actividades-invierno .actividad-invierno-2 ul li ol li,
   main .actividades-invierno .actividad-invierno-3 ul li ol li,
@@ -1033,7 +1024,7 @@ header .alojamiento h1 {
     font-size: 17px;
     list-style-type: lower-roman;
   }
-  /* line 718, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 709, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .img-invierno-1,
   main .actividades-invierno .img-invierno-2,
   main .actividades-invierno .img-invierno-3,
@@ -1049,7 +1040,7 @@ header .alojamiento h1 {
     align-items: center;
     max-height: 400px;
   }
-  /* line 728, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 719, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .actividades-invierno .img-invierno-1 img,
   main .actividades-invierno .img-invierno-2 img,
   main .actividades-invierno .img-invierno-3 img,
@@ -1064,54 +1055,54 @@ header .alojamiento h1 {
     height: 400px;
   }
   /*Restaurante*/
-  /* line 738, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 729, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .restaurante-intro {
     font-size: 25px;
   }
-  /* line 741, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 732, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .infraestructura {
     width: 600px;
     height: 875px;
   }
-  /* line 744, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 735, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .infraestructura img {
     width: 600px;
     height: 400px;
   }
-  /* line 750, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 741, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .platos .grid-platos {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  /* line 753, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 744, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .platos .grid-platos img {
     width: 400px;
     height: 400px;
   }
   /*Contacto*/
-  /* line 765, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 756, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   header .contacto h1 {
     height: 75px;
   }
-  /* line 773, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 764, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   main .mapa h2 {
     font-size: 35px;
   }
   /*Formulario reserva */
-  /* line 781, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 772, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva {
     background-color: white;
     height: 1000px;
     line-height: 35px;
   }
-  /* line 787, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 778, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva h2 {
     text-align: center;
     font-size: 40px;
     color: #464f41;
     padding: 20px 0 0 0;
   }
-  /* line 794, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 785, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form {
     width: 600px;
     height: 325px;
@@ -1120,7 +1111,7 @@ header .alojamiento h1 {
     margin-top: 20px;
     color: #464f41;
   }
-  /* line 803, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 794, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form .inputs {
     display: block;
     width: 100%;
@@ -1132,11 +1123,11 @@ header .alojamiento h1 {
     border: solid 2px #464f41;
     color: #464f41;
   }
-  /* line 815, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 806, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form div {
     width: 580px;
   }
-  /* line 819, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 810, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form .check {
     background-color: white;
     border: solid 2px #464f41;
@@ -1146,52 +1137,52 @@ header .alojamiento h1 {
     font-size: 18.5px;
     margin: 10px;
   }
-  /* line 829, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 820, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form .label {
     display: inline;
   }
-  /* line 833, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 824, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva .label2 {
     padding-left: 5px;
   }
-  /* line 837, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 828, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form select {
     width: 580px;
     height: 50px;
     font-size: 25px;
     display: inline;
   }
-  /* line 844, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 835, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva form textarea {
     width: 580px;
     font-size: 25px;
   }
-  /* line 849, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 840, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva .boton {
     cursor: pointer;
   }
-  /* line 853, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 844, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   .formreserva .boton:hover {
     box-shadow: 1px 2px 2px 1px grey;
   }
   /*footer*/
-  /* line 858, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 849, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   footer {
     height: 180px;
   }
-  /* line 861, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 852, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   footer .footer {
     flex-direction: row;
   }
-  /* line 865, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 856, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   footer .footer .contacto li {
     font-size: 20px;
   }
-  /* line 871, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 862, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   footer .redes-sociales li {
     font-size: 35px;
   }
-  /* line 876, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
+  /* line 867, ../../../../../Desktop/Trabajo final De La Fuente/scss/style.scss */
   footer .copy p {
     font-size: 18px;
   }
